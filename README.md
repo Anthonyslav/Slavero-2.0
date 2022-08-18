@@ -1,5 +1,5 @@
 # Slavero-2.0
-Features 
+# Features 
 // 4% of all transcations made are automatically redistributed to all $Slavero holders.
  // 2% of all transactions made are reflected to the Slavero /Marketing wallet 
 // 2% of all transactions are burned indefinitely, increasing the value of the coin over time. 
