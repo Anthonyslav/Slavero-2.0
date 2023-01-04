@@ -35,8 +35,7 @@ import { ethers } from "ethers";
 export default async function handler(req, res) {
     const provider = new (ethers.providers.getDefaultProvider) (Endpoint);
     let abi = [
-    "function getAllposts() public view returns(post[] memory) {
-        return posts",
+    "function getAllposts() public view returns(post[] memory)",
     ];
     const smartContract = new ethers.Contract(contractAddress, abi, provider);
     const result = await smartContract.getPosts();
